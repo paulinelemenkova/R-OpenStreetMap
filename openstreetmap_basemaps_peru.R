@@ -1,3 +1,21 @@
+# ============================================================================
+# OpenStreetMap tile basemaps of Peru in R (topographic/cartographic mapping)
+#
+# This script produced the R figures in the peer-reviewed article:
+#   Lemenkova, P. (2021). Scripting Cartographic Techniques of R and GMT for
+#   Geomorphological and Topographic Mapping of Peru.
+#   Entorno Geografico, 22, 36-55.
+#   DOI:    https://doi.org/10.25100/eg.v0i22.11331
+#   Zenodo: https://doi.org/10.5281/zenodo.5059867
+#   HAL:    https://hal.science/hal-03276386
+#   SSRN:   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3878727
+#
+# The article combines R and GMT; this repository holds the R OpenStreetMap
+# basemap scripts.
+#
+# Author: Polina Lemenkova  |  ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # Hillshade map. Hillshade maps show the topographical shape of hills and mountains using levels of gray on a map. The role of this kind of maps is to display relative slopes, but not absolute height. https://geocompr.github.io/geocompkg/articles/maps.html
 # set working directory to data folder
 setwd("/Users/pauline/")
